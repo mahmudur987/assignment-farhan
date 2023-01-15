@@ -1,0 +1,188 @@
+body {
+  width: 95%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  padding: 3%;
+}
+.navbar h1 {
+  font-size: 35px;
+  text-align: start;
+  margin-left: 5px;
+}
+.navbar div {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.heading {
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 0%;
+  margin: 20px 0;
+  padding: 20px;
+}
+.heading h1 {
+  font-weight: 900;
+}
+.btn {
+  padding: 0.5rem;
+  font-size: 0.6rem;
+  border-radius: 10%;
+  background-color: coral;
+}
+.banner img {
+  width: 100%;
+  padding: 1%;
+}
+
+.quickfeature {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+.quickfeature div {
+  width: 50%;
+}
+.quickfeatureimages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.quickfeatureimages img {
+  width: 95%;
+  padding: 4%;
+}
+.quickfeatureinfo {
+  padding: 5%;
+  align-items: center;
+  margin: auto 0;
+}
+.Allfeatures {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.featuresList {
+  width: 50%;
+  margin: auto 0;
+}
+.featuresList div {
+  margin: 3%;
+  padding: 3%;
+  box-shadow: 10px 10px 10px rgb(248, 244, 244);
+}
+.featuresImage {
+  width: 50%;
+  margin: 3%;
+}
+.featuresImage img {
+  width: 100%;
+  margin: auto 0;
+}
+.facts {
+  margin: 30px auto;
+  padding: 3%;
+}
+.facts h1 {
+  font-size: 25px;
+}
+
+.fcactssection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.fcactssection div {
+  border: 2px solid red;
+  width: 20%;
+  text-align: center;
+}
+.fcactssection img {
+  width: 25%;
+  height: 25%;
+  margin: 10px;
+}
+.sponsores {
+  margin: 30px auto;
+  padding: 3%;
+  text-align: center;
+}
+.sponsores h1 {
+  font-size: 30px;
+}
+.sponsorImage {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 10% auto;
+}
+
+.sponsorImage img {
+  margin: 5%;
+}
+
+footer p {
+  text-align: center;
+  padding: 5%;
+  background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 667px) {
+  /* body {
+    background-color: lightblue;
+  } */
+  .navbar {
+    background-color: aqua;
+    flex-direction: column;
+  }
+  .navbar h1 {
+    text-align: center;
+  }
+  .navbar div {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+  }
+  .quickfeature {
+    flex-direction: column-reverse;
+  }
+  .quickfeature div {
+    width: 100%;
+  }
+  .Allfeatures {
+    flex-direction: column;
+  }
+
+  .featuresList {
+    width: 100%;
+  }
+  .sponsorImage {
+    flex-direction: column;
+    margin: 10% auto;
+  }
+  .featuresImage {
+    width: 100%;
+  }
+
+  .featuresImage img {
+    width: 95%;
+  }
+  .fcactssection {
+    flex-direction: column;
+  }
+  .fcactssection div {
+    width: 95%;
+    margin: 2%;
+  }
+}
