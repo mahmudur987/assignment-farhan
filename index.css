@@ -2,10 +2,12 @@ body {
   width: 95%;
   margin: 0 auto;
 }
+header {
+  background-color: antiquewhite;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: antiquewhite;
   padding: 3%;
 }
 .navbar h1 {
@@ -43,6 +45,7 @@ body {
 .banner img {
   width: 100%;
   padding: 1%;
+  height: 70%;
 }
 
 .quickfeature {
@@ -90,6 +93,26 @@ body {
   width: 100%;
   margin: auto 0;
 }
+.ourProjects h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.project {
+  width: 24%;
+  box-shadow: 10px 10px 10px rgb(141, 127, 127);
+  margin: 3%;
+}
+.project img {
+  width: 90%;
+  height: 50%;
+  border-radius: 20px;
+}
+
 .facts {
   margin: 30px auto;
   padding: 3%;
@@ -107,6 +130,7 @@ body {
   border: 2px solid red;
   width: 20%;
   text-align: center;
+  box-shadow: 10px 10px 10px rgb(141, 127, 127);
 }
 .fcactssection img {
   width: 25%;
@@ -130,6 +154,7 @@ body {
 
 .sponsorImage img {
   margin: 5%;
+  padding: 5%;
 }
 
 footer p {
@@ -165,6 +190,12 @@ footer p {
   }
 
   .featuresList {
+    width: 100%;
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .project {
     width: 100%;
   }
   .sponsorImage {
